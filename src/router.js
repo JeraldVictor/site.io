@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
+import Contact from './views/contact.vue'
+import nullPage from './views/nullPage.vue'
 
 Vue.use(Router)
 
@@ -20,6 +22,8 @@ export default new Router({
       component: function () { 
         return import(/* webpackChunkName: "about" */ './views/About.vue')
       }
-    }
+    },
+    {path:'/contact',component:Contact},
+    {path:'*',component:nullPage}
   ]
 })

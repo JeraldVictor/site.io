@@ -1,29 +1,10 @@
-# jerald-site
+# Jerald Victor 's Web Page
 
-## Project setup
+## Project In 
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+Vue JS Frame Work
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Check The Site
+See [Jerald Victor](https://jeraldvictor.co.in).
